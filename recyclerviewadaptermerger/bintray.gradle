@@ -1,17 +1,17 @@
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'glog'
+    bintrayName = 'adaptermerger'
 
-    publishedGroupId = 'com.gm.recyclerviewadaptermerger'
-    libraryName = 'GmRecyclerViewAdapterMerger'
+    publishedGroupId = 'com.github.goutham106'
+    libraryName = 'RecyclerViewAdapterMerger'
     artifact = 'adaptermerger'
 
     libraryDescription = 'It is used to merge the different adapters in to one'
 
-    siteUrl = 'https://github.com/goutham106/GmLog'
-    gitUrl = 'https://github.com/goutham106/GmLog.git'
+    siteUrl = 'https://github.com/goutham106/GmRVAdapterMerger'
+    gitUrl = 'https://github.com/goutham106/GmRVAdapterMerger.git'
 
-    libraryVersion = '0.1'
+    libraryVersion = '0.4'
 
     developerId = 'goutham106'
     developerName = 'Gowtham Parimalazhagan'
