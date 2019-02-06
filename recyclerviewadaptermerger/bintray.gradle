@@ -11,7 +11,7 @@ ext {
     siteUrl = 'https://github.com/goutham106/GmRVAdapterMerger'
     gitUrl = 'https://github.com/goutham106/GmRVAdapterMerger.git'
 
-    libraryVersion = '0.4'
+    libraryVersion = '0.6'
 
     developerId = 'goutham106'
     developerName = 'Gowtham Parimalazhagan'

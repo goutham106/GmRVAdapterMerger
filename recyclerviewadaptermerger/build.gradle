@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'recyclerviewadaptermerger'
+
+    publishedGroupId = 'com.github.goutham106'
+    libraryName = 'RecyclerViewAdapterMerger'
+    artifact = 'recyclerviewadaptermerger'
+
+    libraryDescription = 'It is used to merge the different adapters in to one'
+
+    siteUrl = 'https://github.com/goutham106/GmRVAdapterMerger'
+    gitUrl = 'https://github.com/goutham106/GmRVAdapterMerger.git'
+
+    libraryVersion = '0.6'
+
+    developerId = 'goutham106'
+    developerName = 'Gowtham Parimalazhagan'
+    developerEmail = 'goutham.gm11@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 28
 
@@ -7,7 +31,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
-        versionName "0.3"
+        versionName "0.6"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -32,4 +56,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-apply from:'./bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/goutham106/Jcentergradles/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/goutham106/Jcentergradles/master/bintrayv1.gradle'
+//apply from:'./bintray.gradle'
